@@ -7,7 +7,7 @@ import static org.testng.Assert.assertEquals;
 
 public class BMCalc {
     @Test
-    public void Test1 (){
+    public void inputCorrectData (){
         System.setProperty("webdriver.chrome.driver", "src/test/resources/webdrivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("http://healthunify.com/bmicalculator");
@@ -19,7 +19,7 @@ public class BMCalc {
         driver.quit();
     }
     @Test
-    public void Test2 (){
+    public void inputCorrectDataAgain (){
         System.setProperty("webdriver.chrome.driver", "src/test/resources/webdrivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("http://healthunify.com/bmicalculator");
@@ -31,7 +31,7 @@ public class BMCalc {
         driver.quit();
     }
     @Test
-    public void Test3 (){
+    public void changeUnitsMeasurementWeight (){
         System.setProperty("webdriver.chrome.driver", "src/test/resources/webdrivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("http://healthunify.com/bmicalculator");
@@ -45,7 +45,7 @@ public class BMCalc {
         driver.quit();
     }
     @Test
-    public void Test4 (){
+    public void changeUnitsMeasurementHeight (){
         System.setProperty("webdriver.chrome.driver", "src/test/resources/webdrivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("http://healthunify.com/bmicalculator");
@@ -60,7 +60,7 @@ public class BMCalc {
         driver.quit();
     }
     @Test
-    public void Test5 (){
+    public void getResultAnotherField (){
         System.setProperty("webdriver.chrome.driver", "src/test/resources/webdrivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("http://healthunify.com/bmicalculator");
